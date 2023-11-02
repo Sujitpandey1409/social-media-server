@@ -42,7 +42,7 @@ app.use("/auth", authRouter);
 app.use("/posts", postsRouter);
 app.use("/user", userRouter);
 app.get("/", (req, res) => {
-    res.status(200).send("OK from Server");
+    res.status(200).send("OK from Server :)");
 });
 
 const PORT = process.env.PORT || 4001;
